@@ -1,0 +1,2 @@
+"dev": "babel ./30-EcmaScript-Object_Short_Syntax/main.js -o ./30-EcmaScript-Object_Short_Syntax/bundle.js -w"
+"dev": "webpack --mode=development -w"

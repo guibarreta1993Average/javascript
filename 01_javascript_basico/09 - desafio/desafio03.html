@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional ternário</title>
+</head>
+<body>
+    <script>
+
+        //desafio 03
+        function temHabilidade(skills) {
+            var encontrou = false
+
+            skills.forEach(function(el){
+                if(el === 'Javascript')
+                    encontrou = true
+            })
+
+            return encontrou
+
+        }
+        var skills = ["ReactJS", "React Native", "Javascript"];
+        temHabilidade(skills)? console.log('encontrou!!'): console.log('Nada encontrado'); 
+        skills.indexOf('Javascript') != -1? console.log('indexOf', 'encontrou!!'): console.log('indexOf','Nada encontrado'); 
+    </script>
+</body>
+</html>

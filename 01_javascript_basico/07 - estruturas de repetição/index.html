@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional ternário</title>
+</head>
+<body>
+    <script>
+        //for
+        for(i=1;i<=10;i++){
+            console.log(i);
+        }
+        //Fibonacci até um número próximo e menor que 200
+        var anterior = 0;
+        var atual = 1;
+        var soma;
+        do{
+            console.log(atual);
+            soma = anterior + atual;
+            anterior = atual;
+            atual = soma;
+        }while(atual <200);
+    </script>
+</body>
+</html>

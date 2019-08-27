@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio02</title>
+    
+    <style>
+        #app{
+            display: inline-block;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 2px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'app'>
+        <button id = 'btAdicionar'>Adicionar</button>
+    </div>
+    <script>
+        function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        var btElement = document.querySelector('#btAdicionar');
+        btElement.onclick = function(){
+            var ctElement = document.querySelector('div#app');
+            //var quadradoElement = document.createElement('input');
+            var quadradoElement = document.createElement('div');
+            quadradoElement.setAttribute('class','box');
+            //quadradoElement.setAttribute('class','.quadrado');
+            // quadradoElement.style.height = 40;
+            // quadradoElement.style.width =  40;
+            //quadradoElement.style.backgroundColor ='#f00';
+            ctElement.appendChild(quadradoElement);
+            quadradoElement.onmouseover = function(){
+                quadradoElement.style.backgroundColor =getRandomColor();
+            }
+            }
+    </script>
+</body>
+</html>

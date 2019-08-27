@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional</title>
+</head>
+<body>
+    <script>
+        function retorneSexo(sexo){
+            // três iguais comparam, além do valor, o tipo da variável
+            if(sexo === 'M'){
+                return 'Masculino';
+            }
+            if(sexo ==='F'){
+                return 'Feminino';
+            }
+            else{
+                return 'Outro';
+            }
+        }
+
+        function switchSexo(sexo){
+            switch(sexo){
+                case 'M':
+                    return 'Masculino';
+                case 'F':
+                    return 'Feminino';
+                default:
+                    return 'outro';
+            }
+        }
+
+        //sexo = retorneSexo('asdaff');
+        sexo = switchSexo('asdsafd');
+        console.log(sexo);
+    </script>
+</body>
+</html>

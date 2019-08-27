@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarAlerta(0)">Clique aqui</button>
+        <button onmouseover="mostrarAlerta(1)">Passe o mouse</button>
+    </div>
+    <script>
+    function mostrarAlerta(ms){
+        if(!ms)alert("clicado!!");
+        else alert("passou o mouse");
+    }
+    </script>
+</body>
+</html>

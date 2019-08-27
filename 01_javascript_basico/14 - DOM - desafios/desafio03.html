@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio03</title>
+    
+    <style>
+        li{
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+    <div id = "app">
+    </div>
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        var containerElement = document.querySelector('#app');
+        var ulElement = document.createElement('ul');
+        containerElement.appendChild(ulElement);
+        for(nome of nomes){
+            var el = document.createElement('li');
+            var text = document.createTextNode(nome);
+            el.appendChild(text);
+            ulElement.appendChild(el);
+        }
+    </script>
+</body>
+</html>

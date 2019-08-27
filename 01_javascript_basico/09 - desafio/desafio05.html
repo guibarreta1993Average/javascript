@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio05</title>
+</head>
+<body>
+    <script>
+        function imprimaHabilidades(habilidades){
+            console.log(habilidades);
+        }
+        // vetor de objetos, sendo cada objeto um usuário
+        var usuarios = [
+        {
+            nome: "Diego",
+            habilidades: ["Javascript", "ReactJS", "Redux"]
+        },
+        {
+            nome: "Gabriel",
+            habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+        }
+        ];
+        for(usuario of usuarios){
+            var nomes = usuario.habilidades.join([separador = ', '])
+            console.log("O "+ usuario.nome + " possui as habilidades: "+ nomes);   
+        }
+    </script>
+</body>
+</html>

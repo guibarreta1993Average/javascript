@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional</title>
+</head>
+<body>
+    <script>
+        //AND, OR e NOT
+        var idade = 66;
+        var sexo = 'A';
+        if(sexo !=='M')sexo = 'F';
+        var velho = (idade >=65 && sexo === 'M');
+        var terceira_idade = (idade >=65 && (sexo === 'M' || sexo ==='F'));
+        var jovem = (!terceira_idade);
+        console.log('Velho: ' + velho + ' Terceira idade: ' + terceira_idade + ' jovem: '+ jovem);
+    </script>
+</body>
+</html>
