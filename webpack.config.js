@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './32-EcmaScript-WebPack/main.js',
+    entry: './33-EcmaScript-Import_Export/main.js',
     output:{
         path: __dirname,
-        filename: '32-EcmaScript-WebPack/bundle.js',
+        filename: '33-EcmaScript-Import_Export/bundle.js',
     },
     module:{
         rules: [
