@@ -1,18 +1,18 @@
 module.exports = {
-    entry: './main.js',
+    entry: './32-EcmaScript-WebPack/main.js',
     output:{
         path: __dirname,
-        filename: 'bundle.js',
+        filename: '32-EcmaScript-WebPack/bundle.js',
     },
-module:{
-    rules: [
-        {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: {
-                loader: 'babel-loader',
+    module:{
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                }
             }
-        }
-    ],
-}
+        ]
+    }
 };
