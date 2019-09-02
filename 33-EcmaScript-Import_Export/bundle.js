@@ -90,10 +90,35 @@
 /*!*********************************************!*\
   !*** ./33-EcmaScript-Import_Export/main.js ***!
   \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\33-EcmaScript-Import_Export\\\\main.js: Unexpected token (1:20)\\n\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 1 | \\u001b[39m\\u001b[36mimport\\u001b[39m somaFunction {sub as subtracao\\u001b[33m,\\u001b[39m mul} from \\u001b[32m\\\"./math\\\"\\u001b[39m\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m   | \\u001b[39m                    \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 2 | \\u001b[39m\\u001b[36mimport\\u001b[39m \\u001b[33m*\\u001b[39m as mensagens from \\u001b[32m\\\"./mensagens\\\"\\u001b[39m\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 3 | \\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 4 | \\u001b[39mconsole\\u001b[33m.\\u001b[39mlog(somaFunction(\\u001b[35m3\\u001b[39m\\u001b[33m,\\u001b[39m\\u001b[35m4\\u001b[39m))\\u001b[33m;\\u001b[39m\\u001b[0m\\n    at Parser.raise (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:6325:17)\\n    at Parser.unexpected (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:7642:16)\\n    at Parser.expectContextual (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:7608:41)\\n    at Parser.parseImport (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11168:12)\\n    at Parser.parseStatementContent (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9927:27)\\n    at Parser.parseStatement (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9829:17)\\n    at Parser.parseBlockOrModuleBlockBody (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10405:25)\\n    at Parser.parseBlockBody (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10392:10)\\n    at Parser.parseTopLevel (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9758:10)\\n    at Parser.parse (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11270:17)\\n    at parse (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11306:38)\\n    at parser (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\normalize-file.js:170:34)\\n    at normalizeFile (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\normalize-file.js:138:11)\\n    at runSync (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\index.js:44:43)\\n    at runAsync (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transformation\\\\index.js:35:14)\\n    at process.nextTick (C:\\\\Users\\\\guilherme.barreta\\\\Documents\\\\Rocketseat\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\transform.js:34:34)\\n    at process._tickCallback (internal/process/next_tick.js:61:11)\");\n\n//# sourceURL=webpack:///./33-EcmaScript-Import_Export/main.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math */ \"./33-EcmaScript-Import_Export/math.js\");\n/* harmony import */ var _mensagens__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mensagens */ \"./33-EcmaScript-Import_Export/mensagens.js\");\n//função padrão 'soma' renomeada para somaFunction\n // importar todas as mensagens\n\n\nconsole.log(Object(_math__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(3, 4));\nconsole.log(Object(_math__WEBPACK_IMPORTED_MODULE_0__[\"sub\"])(19, 7));\nconsole.log(Object(_math__WEBPACK_IMPORTED_MODULE_0__[\"mul\"])(10, 5));\nconsole.log(_mensagens__WEBPACK_IMPORTED_MODULE_1__[\"ola\"]());\nconsole.log(_mensagens__WEBPACK_IMPORTED_MODULE_1__[\"vaiDormir\"]());\n\n//# sourceURL=webpack:///./33-EcmaScript-Import_Export/main.js?");
+
+/***/ }),
+
+/***/ "./33-EcmaScript-Import_Export/math.js":
+/*!*********************************************!*\
+  !*** ./33-EcmaScript-Import_Export/math.js ***!
+  \*********************************************/
+/*! exports provided: default, sub, mul */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return soma; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sub\", function() { return sub; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"mul\", function() { return mul; });\nfunction soma(a, b) {\n  return a + b;\n}\nfunction sub(a, b) {\n  return a - b;\n}\nfunction mul(a, b) {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./33-EcmaScript-Import_Export/math.js?");
+
+/***/ }),
+
+/***/ "./33-EcmaScript-Import_Export/mensagens.js":
+/*!**************************************************!*\
+  !*** ./33-EcmaScript-Import_Export/mensagens.js ***!
+  \**************************************************/
+/*! exports provided: ola, vaiDormir */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ola\", function() { return ola; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"vaiDormir\", function() { return vaiDormir; });\nfunction ola() {\n  return \"Hello, World!!\";\n}\nfunction vaiDormir() {\n  return \"vai Dormir!!\";\n}\n\n//# sourceURL=webpack:///./33-EcmaScript-Import_Export/mensagens.js?");
 
 /***/ })
 

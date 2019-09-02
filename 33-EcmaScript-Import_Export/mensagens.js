@@ -1,6 +1,6 @@
 export function ola(){
-    return "Hello World!!"
+    return "Hello, World!!"
 }
 export function vaiDormir(){
-    return "vai Dormir"
+    return "vai Dormir!!"
 }
