@@ -1,0 +1,31 @@
+instalar servidor webpack:
+$yarn add webpack-dev-server -D
+
+comando para rodar servidor:
+$yarn dev
+
+comando para construir o bundle no front-end:
+$ yarn build
+
+substituir o que está indicado por < > no webpack-config para gerar o bundle no servidor ou front-end:
+module.exports = {
+    entry: './<caminho do arquivo javascript>/main.js',
+    output:{
+        path: __dirname + '/<caminho desejado para exportar o bundle>',
+        filename: 'bundle.js',
+    },
+    devServer:{
+        contentBase: __dirname + '/<caminho do arquivo html>'
+    },
+    module:{
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                }
+            }
+        ]
+    }
+};

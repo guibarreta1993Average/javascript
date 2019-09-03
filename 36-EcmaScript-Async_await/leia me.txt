@@ -1,0 +1,5 @@
+para usar o async:
+$ yarn add @babel/plugin-transform-async-to-generator -D
+
+outras funcionalidades:
+$ yarn add @babel/polyfill -D

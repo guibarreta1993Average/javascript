@@ -1,8 +1,11 @@
 module.exports = {
-    entry: './33-EcmaScript-Import_Export/main.js',
+    entry: ['@babel/polyfill','./37-EcmaScript-Axios/src/main.js'],
     output:{
-        path: __dirname,
-        filename: '33-EcmaScript-Import_Export/bundle.js',
+        path: __dirname + '/37-EcmaScript-Axios',
+        filename: 'bundle.js',
+    },
+    devServer:{
+        contentBase: __dirname + '/37-EcmaScript-Axios/public'
     },
     module:{
         rules: [

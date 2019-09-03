@@ -1,0 +1,2 @@
+adicione o axios para acessar API com requisições assíncronas:
+$yarn add axios
