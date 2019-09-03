@@ -4,5 +4,8 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/guibarreta1993Average/javascript.git
 $ git push -u origin master
 
+adicionar arquivos untracked:
+$ git add -A
+
 para instalar todas as dependências use o comando:
 $ npm install
