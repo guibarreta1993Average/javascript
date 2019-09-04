@@ -1,11 +1,11 @@
 module.exports = {
-    entry: ['@babel/polyfill','./37-EcmaScript-Axios/src/main.js'],
+    entry: ['@babel/polyfill','./39-EcmaScript-Adicionar_repositorios/src/main.js'],
     output:{
-        path: __dirname + '/37-EcmaScript-Axios',
+        path: __dirname + '/39-EcmaScript-Adicionar_repositorios',
         filename: 'bundle.js',
     },
     devServer:{
-        contentBase: __dirname + '/37-EcmaScript-Axios/public'
+        contentBase: __dirname + '/39-EcmaScript-Adicionar_repositorios/public'
     },
     module:{
         rules: [
