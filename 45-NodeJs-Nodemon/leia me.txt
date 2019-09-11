@@ -1,0 +1,2 @@
+para executar o nodemon server.js:
+$npm run dev
