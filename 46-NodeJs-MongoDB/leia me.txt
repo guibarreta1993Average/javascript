@@ -1,0 +1,10 @@
+comandos linux - 
+
+docker para o mongo:
+$sudo docker pull mongo
+
+redirecionamento de porta e renomeação:
+$sudo docker run --name mongodb -p 27017:27017 -d mongo
+
+retornar as imagens que estão rodando:
+$sudo docker ps
