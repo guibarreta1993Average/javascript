@@ -1,15 +1,5 @@
-comandos linux - 
-
-docker para o mongo:
-$sudo docker pull mongo
-
-redirecionamento de porta e renomeação:
-$sudo docker run --name mongodb -p 27017:27017 -d mongo
+iniciar uma imagem do docker:
+$docker start <imagem>
 
 retornar as imagens que estão rodando:
 $sudo docker ps
-
-dependência para um ORM de bancos não relacionais com mongodb:
-$npm install mongoose
-
-biblioteca que requisita
