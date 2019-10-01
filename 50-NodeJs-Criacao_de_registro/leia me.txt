@@ -1,0 +1,8 @@
+iniciar uma imagem do docker:
+$docker start <imagem>
+
+retornar as imagens que estão rodando:
+$sudo docker ps
+
+executar o node js na pasta node-api:
+$npm run dev
