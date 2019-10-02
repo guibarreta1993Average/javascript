@@ -7,3 +7,5 @@ $sudo docker ps
 executar o node js na pasta node-api:
 $npm run dev
 
+para que a API seja acessível publicamente:
+$ npm install cors
