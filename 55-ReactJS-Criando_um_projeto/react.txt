@@ -1,0 +1,12 @@
+- ReactJs é uma biblioteca/framework para manipular a DOM de forma mais simples e organizada
+- ReactJs é usado para construção de SPAs (Single Page Applications)
+- interpreta os dados no formato Json retornado pelo back-end
+
+instalar:
+$npm install -g create-react-app
+
+criar a pasta huntweb:
+$create react-app huntweb
+
+iniciar na pasta huntweb:
+$npm start

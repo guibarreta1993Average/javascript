@@ -9,3 +9,6 @@ $ git add -A
 
 para instalar todas as dependências use o comando:
 $ npm install
+
+
+git ignore:

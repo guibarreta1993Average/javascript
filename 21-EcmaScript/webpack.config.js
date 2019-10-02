@@ -1,11 +1,11 @@
 module.exports = {
-    entry: ['@babel/polyfill','./42-EcmaScript-Loading_e_erro/src/main.js'],
+    entry: ['@babel/polyfill','./src/main.js'],
     output:{
-        path: __dirname + '/42-EcmaScript-Loading_e_erro',
+        path: __dirname,
         filename: 'bundle.js',
     },
     devServer:{
-        contentBase: __dirname + '/42-EcmaScript-Loading_e_erro/public'
+        contentBase: __dirname + '/public'
     },
     module:{
         rules: [
