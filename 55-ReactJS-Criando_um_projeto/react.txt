@@ -10,3 +10,8 @@ $create react-app huntweb
 
 iniciar na pasta huntweb:
 $npm start
+
+axios:
+$yarn add axios
+
+$yarn add react-router-dom
